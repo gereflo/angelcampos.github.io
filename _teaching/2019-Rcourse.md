@@ -4,7 +4,7 @@ collection: teaching
 type: "MSc-PhD course"
 permalink: /teaching/2019-Rcourse
 venue: "Weizmann Institute of Science, Feinberg Graduate School"
-date: 2018-October
+date: 2018-10-01
 location: "Rehovot, Israel"
 ---
 
