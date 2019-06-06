@@ -1,6 +1,6 @@
 ---
 title: "Pathway Analysis: State of the Art"
-collection: review
+collection: articles
 permalink: /publication/2015-12-17_PathwayAnalysis
 excerpt: 'This review tries to give an overview of what pathway analysis is and how different methods have developed encompassing the same idea of trying to identify pathways that are relevant for our gene-centric experimental data.'
 date: 2015-12-17
