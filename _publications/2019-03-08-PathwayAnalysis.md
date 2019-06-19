@@ -3,7 +3,7 @@ title: "Pathway Analysis: State of the Art"
 collection: articles
 permalink: /publication/2015-12-17_PathwayAnalysis
 excerpt: 'This review tries to give an overview of what pathway analysis is and how different methods have developed encompassing the same idea of trying to identify pathways that are relevant for our gene-centric experimental data.'
-date: 2015-12-17
+date: 2019-03-08
 venue: 'Frontiers in Physiology'
 paperurl: 'https://www.frontiersin.org/articles/10.3389/fphys.2015.00383/full' 
 citation: 'García-Campos, M.A., Espinal-Enríquez, J. and Hernández-Lemus, E., 2015. Pathway analysis: state of the art. Frontiers in physiology, 6, p.383.'
