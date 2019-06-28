@@ -13,6 +13,8 @@ Summary
 ==========
 N6-methyladenosine (m 6A) is the most abundant modification on mRNA and is implicated in critical roles in development, physiology, and disease. A major limitation has been the inability to quantify m 6A stoichiometry and the lack of antibody-independent methodologies for interrogating m 6A. Here, we develop MAZTER-seq for systematic quantitative profiling of m6A at single-nucleotide resolution at 16%–25% of expressed sites, building on differential cleavage by an RNase. MAZTER-seq permits validation and de novo discovery of m 6A sites, calibration of the performance of antibody-based approaches, and quantitative tracking of m 6A dynamics in yeast gametogenesis and mammalian differentiation. We discover that m6A stoichiometry is “hard coded” in cis via a simple and predictable code, accounting for 33%–46% of the variability in methylation levels and allowing accurate prediction of m 6A loss and acquisition events across evolution. MAZTER-seq allows quantitative investigation of m 6A regulation in subcellular fractions, diverse cell types, and disease states.
 
+
 <dl>
-<a href="https://plu.mx/plum/a/?doi=10.1016%2Fj.cell.2019.06.013" data-popup="right" data-size="large" class="plumx-plum-print-popup" data-site="plum" data-hide-when-empty="true">Deciphering the “m 6 A Code” via Antibody-Independent Quantitative Profiling</a>
+	<script type="text/javascript" src="//cdn.plu.mx/widget-details.js"></script>
+	<a href="https://plu.mx/plum/a/?doi=10.1016%2Fj.cell.2019.06.013" class="plumx-details" data-site="plum" data-hide-when-empty="true">Deciphering the “m 6 A Code” via Antibody-Independent Quantitative Profiling</a>
 </dl>
