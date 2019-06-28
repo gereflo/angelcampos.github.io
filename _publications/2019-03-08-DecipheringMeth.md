@@ -1,7 +1,7 @@
 ---
 title: "Deciphering the ‘m6A code’ via quantitative profiling of m6A at single-nucleotide resolution"
-collection: preprints
-permalink: /publication/2019-03-08_DecipheringMeth
+collection: preprint
+permalink: /publication/2019-03-08_DecipherM6A_biorxiv
 excerpt: 'In this paper we present a method to quantify m6a using a m6a sensitive endonuclease, and uncover the mechanistic behaviour of methylation through a simple and conserved code in cis.'
 date: 2019-03-08
 venue: 'bioRxiv'
