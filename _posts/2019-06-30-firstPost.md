@@ -12,6 +12,7 @@ first software. So I thought it was time to make my own site to organize this an
 future work.
 
 ![alt text][mini]
+
 [Deciphering the “m6A Code” via Antibody-Independent Quantitative Profiling](https://angelcampos.github.io/publication/2019-03-08_DecipherM6A_Cell)
 
 I'm very happy to come to the conclusion of a project, but I hope it will become 
