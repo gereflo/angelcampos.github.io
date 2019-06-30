@@ -11,30 +11,19 @@ redirect_from:
 
 Education
 ======
-* B.S. in GitHub, GitHub University, 2012
-* M.S. in Jekyll, GitHub University, 2014
-* Ph.D in Version Control Theory, GitHub University, 2018 (expected)
+* B.S. in Biology, National Autonomous University of México, 2014
+* M.S. in Life Sciences, National Autonomous University of México, 2016
+* Ph.D in Life Sciences, Weizmann Institute of Science, 2021 (expected)
 
-Work experience
+Research Experience
 ======
-* Summer 2015: Research Assistant
-  * Github University
-  * Duties included: Tagging issues
-  * Supervisor: Professor Git
-
-* Fall 2015: Research Assistant
-  * Github University
-  * Duties included: Merging pull requests
-  * Supervisor: Professor Hub
-  
-Skills
-======
-* Skill 1
-* Skill 2
-  * Sub-skill 2.1
-  * Sub-skill 2.2
-  * Sub-skill 2.3
-* Skill 3
+* PhD research student: Schraga Schwartz Lab
+  * Development of MAZTER-Seq. An anti-body independent method to quantify and map m6A across genomes
+  * MAZTER-MINE. A pipeline to analize MAZTER-Seq derived data.
+* MSc student: Enrique Hernandez Lemus Lab
+  * Pathway Analysis: State of the art. A review article on gene-set enrichment analysis tools.
+* BSc student: Claudia Segal Kischinevzky
+  * Characterization of an acatalasemic S. cerevisiae complemented with catalases from euryhaline D. hansenii
 
 Publications
 ======
@@ -56,4 +45,5 @@ Teaching
   
 Service and leadership
 ======
-* Currently signed in to 43 different slack teams
+* Member of the Happy hour committee in the Molecular Genetics Department. ;)
+
