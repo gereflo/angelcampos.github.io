@@ -1,9 +1,9 @@
 ---
-title: "Deciphering the "m6A code" via quantitative profiling of m6A at single-nucleotide resolution"
+title: 'Deciphering the m6A code via quantitative profiling of m6A at single-nucleotide resolution'
 collection: articles
 permalink: /publication/2019-03-28_DecipherM6A_Cell
 excerpt: 'In this preprint we present a method to quantify m6a using a m6a sensitive endonuclease, and uncover the mechanistic behaviour of methylation trough a simple and conserved code in cis.'
-date: 2019-03-08
+date: 2019-03-28
 venue: 'bioRxiv'
 paperurl: 'https://www.biorxiv.org/content/10.1101/571679v1' 
 citation: 'Garcia-Campos, M.A., Edelheit, S., Toth, U., Shachar, R., Nir, R., Lasman, L., Brandis, A., Hanna, J.H., Rossmanith, W. and Schwartz, S., 2019. Deciphering the "m6A code" via quantitative profiling of m6A at single-nucleotide resolution. BioRxiv, p.571679.'
