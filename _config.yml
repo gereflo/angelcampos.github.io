@@ -1,4 +1,4 @@
-# Welcome to Jekyll!
+ # Welcome to Jekyll!
 #
 # This config file is meant for settings that affect your entire site, values
 # which you are expected to set up once and rarely need to edit after that.
@@ -10,7 +10,7 @@ locale                   : "en-US"
 title                    : "Miguel A. García-Campos"
 title_separator          : "-"
 name                     : &name "Miguel Angel García-Campos"
-description              : &description "Mexican PhD at Weizmann Institute, human"
+description              : &description "PhD student at the Weizmann Institute."
 url                      : https://angelcampos.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "AngelCampos/angelcampos.github.io"
@@ -32,7 +32,7 @@ comments:
     colorscheme          : # "light" (default), "dark"
 staticman:
   allowedFields          : ['name', 'email', 'url', 'message']
-  branch                 : "gh-pages" # "master", "gh-pages"
+  branch                 : "master" # "master", "gh-pages"
   commitMessage          : "New comment."
   filename               : comment-{@timestamp}
   format                 : "yml"
@@ -75,20 +75,20 @@ social:
 analytics:
   provider               :  "google-universal" # false (default), "google", "google-universal", "custom"
   google:
-    tracking_id          :
+    tracking_id          : UA-143051832-1
 
 
 # Site Author
 author:
   name             : "Miguel Angel García-Campos"
   avatar           : "profile.png"
-  bio              : "A biologist in love with statistics and computers"
+  bio              : "A biologist in love with math, statistics, and programming as tools for understanding biology"
   location         : "Israel"
-  employer         :
+  employer         : "Weizmann Institute of Science"
   pubmed           : "https://www.ncbi.nlm.nih.gov/myncbi/1RUo_bmgziyglN/bibliography/public/"
   googlescholar    : "https://scholar.google.com/citations?user=-J7nzzcAAAAJ&hl"
-  email            :
-  researchgate     :  # example: "https://www.researchgate.net/profile/yourprofile"
+  email            : "angel.campos@weizmann.ac.il"
+  researchgate     : "https://www.researchgate.net/profile/Miguel_Angel_Garcia-Campos"
   uri              :
   bitbucket        :
   codepen          :
@@ -100,7 +100,7 @@ author:
   google_plus      :
   keybase          :
   instagram        :
-  impactstory      : #"https://profiles.impactstory.org/u/xxxx-xxxx-xxxx-xxxx"
+  impactstory      : "https://profiles.impactstory.org/u/0000-0001-5223-8174"
   lastfm           :
   linkedin         :
   orcid            : "https://orcid.org/0000-0001-5223-8174"
