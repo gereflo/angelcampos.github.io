@@ -1,6 +1,6 @@
 ---
 title: "MAZTER-MINE"
-excerpt: "MAZTER-mine is a computational pipeline to analize MAZTER-seq derived data, a methodology that profiles m6A quantitatively across transcriptomes in a single-base manner. <br/><img src='/images/500x300.png'>"
+excerpt: "MAZTER-mine is a computational pipeline to analize MAZTER-seq derived data, a methodology that profiles m6A quantitatively across transcriptomes in a single-base manner."
 collection: software
 ---
 
