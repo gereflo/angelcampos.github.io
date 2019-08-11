@@ -1,10 +1,10 @@
 ---
-title: "Principles and practice of large scale data analysis using R 2019-1. (TA) "
+title: "Principles and practice of large scale data analysis using R 2020-1. (TA) "
 collection: teaching
 type: "MSc-PhD course"
 permalink: /teaching/2019-Rcourse
 venue: "Weizmann Institute of Science, Feinberg Graduate School"
-date: 2018-10-01
+date: 2019-11-01
 location: "Rehovot, Israel"
 ---
 

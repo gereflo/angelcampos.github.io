@@ -1,5 +1,5 @@
 ---
-title: "Teaching assistant Rcourse 2018"
+title: "Principles and practice of large scale data analysis using R 2018-1. (TA) "
 collection: teaching
 type: "MSc-PhD course"
 permalink: /teaching/2018-Rcourse
@@ -8,4 +8,14 @@ date: 2017-10-01
 location: "Rehovot, Israel"
 ---
 
-Teaching assitanceship in the Rcourse lectured by Igor Ultisky, Schraga Schwartz and Emmanuel Levy.
+The course is intended for graduate students in the Life Sciences area. The goal of the course is to enable students to use the R programming language as a tool to extract biological insight from high throughput data.
+
+Topics covered range but are not limited to:
+
+* Introduction to the R language, Rstudio IDE, and basic data structures.
+* Control flow, conditionals and loops.
+* Introduction to genomic data.
+* Cluster analysis, and machine learning.
+* Data visualization.
+
+Course lectured by Igor Ultisky, Schraga Schwartz and Emmanuel Levy.
