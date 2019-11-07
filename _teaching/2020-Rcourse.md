@@ -19,3 +19,5 @@ Topics covered range but are not limited to:
 * Data visualization.
 
 Course lectured by Igor Ultisky, Schraga Schwartz and Emmanuel Levy.
+
+Class material can be found in the course's [Google Drive folder](bit.ly/Rcourse2020_students)
