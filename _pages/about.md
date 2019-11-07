@@ -8,17 +8,11 @@ redirect_from:
   - /about.html
 ---
 
-Hello, my name is Miguel. I'm a Mexican PhD student in the Weizmann Institute at the [Schwartz Lab](http://www.weizmann.ac.il/molgen/Schwartz/). I am a biologist with great interest in learning how to apply mathematics, statistics, and complexity theory to the understanding of life.
+Hello, my name is Miguel. I'm a Mexican PhD student in the Weizmann Institute at the [Schwartz's Lab](http://www.weizmann.ac.il/molgen/Schwartz/). I am a biologist with great interest in understanding life from a quantitative, mechanistic and systematic perspective. My goals range from applying Mathematics, Statistics, Computation theory, and Complexity theory for advancing the understanding, preservation and use of life.
 
-Here in the Schwartz lab I am working in the field of Epitranscriptomics, a relatively new and blooming research field, which deals with the biochemical modification of the RNA extant in all living organisms, even viruses! My main work up to now, has revolved around the development of experimental and computational methods to measure and detect m6A, a very abundant RNA modification present in eukaryotes. As well as using this measurements to understand the underlying biology behind it, its mechanistic nature. 
+Here in the Schwartz lab I am working in the field of Epitranscriptomics, a relatively new and blooming research field, which deals with the biochemical modification of the RNA molecules extant in all living organisms. My main work, has revolved around the development of experimental and computational methods to detect and quantify [m6A](https://en.wikipedia.org/wiki/N6-Methyladenosine) in a high-throughput manner. m6A is highly abundant RNA modification present in eukaryotes, and it has recently received attention as potential therapeutic target for many diseases as Cancer, Osteoporosis As well as using these measurements to understand the underlying biology behind it, its mechanistic nature. 
 
-<dl>
-	<!-- Global site tag (gtag.js) - Google Analytics -->
-	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-143051832-1"></script>
-	<script>
-		window.dataLayer = window.dataLayer || [];
-		function gtag(){dataLayer.push(arguments);}
-		gtag('js', new Date());
-		gtag('config', 'UA-143051832-1');
-	</script>
-</dl>>
+Status Updates
+==============
+
+27-June-2019 - Published work: Garcia-Campos, Miguel Angel, et al. ["Deciphering the “m6A Code” via Antibody-Independent Quantitative Profiling."](https://www.cell.com/cell/fulltext/S0092-8674(19)30676-2) Cell (2019).
