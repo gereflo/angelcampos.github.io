@@ -1,7 +1,7 @@
 ---
 permalink: /
 title: "About"
-excerpt: "About me"
+excerpt: "HOME: Miguel Garcia-Campos"
 author_profile: true
 redirect_from: 
   - /about/
