@@ -11,9 +11,9 @@ redirect_from:
 
 Education
 ======
-* B.S. in Biology, National Autonomous University of México, 2014
-* M.S. in Life Sciences, National Autonomous University of México, 2016
 * Ph.D in Life Sciences, Weizmann Institute of Science, 2021 (expected)
+* M.S. in Life Sciences, National Autonomous University of México, 2016
+* B.S. in Biology, National Autonomous University of México, 2014
 
 Research Experience
 ======
@@ -46,4 +46,3 @@ Teaching
 Service and leadership
 ======
 * Member of the Happy hour committee in the Molecular Genetics Department. ;)
-
