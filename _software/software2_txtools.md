@@ -4,17 +4,17 @@ excerpt: "An R package that processes GenomicAlignments into their transcriptomi
 collection: software
 ---
 
+Transcriptomic-wise data analysis is increasingly needed
+to process and analyze RNA-seq data in which transcript-structure and
+close nucleotide-level inspection is required, e.g. analyzing
+RNA-seq data derived from RNA-modifications detection protocols.
+
 **txtools** is a package that processes GenomicAlignments objects into
 their transcriptomic versions.
 
 **txtools** is meant to expand the functionality of the
 [**GenomicAlignments**](https://bioconductor.org/packages/release/bioc/html/GenomicRanges.html)
 package, as currently it does not support transcriptomic-wise features.
-
-Transcriptomic-wise features are increasingly needed
-to process and analyze RNA-seq data in which transcript-structure and
-close nucleotide-level inspection is required, e.g. analyzing
-RNA-seq data derived from RNA-modifications detection protocols.
 
 ## Installation
 
