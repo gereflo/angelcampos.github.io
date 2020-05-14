@@ -27,7 +27,7 @@ It is also comfortably located in the first floor, so not many stairs to climb u
 ## How much?:
 
 - The share of the rent is **1640.65 ILS** (proportional to the size of bedrooms, includes Arnona).
-- Utilities (Internet, gas, electricity, and water) round about **~200 ILS** or less per month.
+- Utilities (Internet, gas, electricity, and water) round about **~200 ILS** or less per month per person.
 
 ## Contact:
 
@@ -46,5 +46,6 @@ If you are interested please send me a message through WhatsApp (+972 0587817336
 ![kitchen2](https://user-images.githubusercontent.com/9357097/81887637-34e6d500-9565-11ea-8324-fa11cccece7c.jpg){:height="30%" width="30%"}  ![toilet1](https://user-images.githubusercontent.com/9357097/81887615-27c9e600-9565-11ea-981a-76b4041dfb91.jpg){:height="30%" width="30%"} ![washroom](https://user-images.githubusercontent.com/9357097/81887626-2dbfc700-9565-11ea-9e32-7254d9eac184.jpg){:height="30%" width="30%"}
 
 <!---
-<img src="https://.jpg" alt="xxx" style="width:200px;"/><img src="https://.jpg" alt="xxx" style="width:200px;"/>
+<img src="https://xxx.jpg" alt="xxx" style="height:350px;"/>
+![fig1](https://xxx.jpg){:height="30%" width="30%"} ![fig2](https://xxx.jpg){:height="30%" width="30%"}
 -->
