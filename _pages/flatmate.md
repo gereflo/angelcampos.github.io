@@ -32,7 +32,8 @@ It is also comfortably located in the first floor, so not many stairs to climb u
 
 Here some pics:
 
-![ItsUs](https://user-images.githubusercontent.com/9357097/81891114-403dfe80-956d-11ea-8d65-b2965e94a021.jpg =250x)
+<img src="https://user-images.githubusercontent.com/9357097/81891114-403dfe80-956d-11ea-8d65-b2965e94a021.jpg" alt="ItsUs" style="width:200px;"/>
+
 ![dinRoom1](https://user-images.githubusercontent.com/9357097/81887373-9195c000-9564-11ea-8e91-8f4608380455.jpg)
 ![dinRoom2](https://user-images.githubusercontent.com/9357097/81887392-9ce8eb80-9564-11ea-8eec-e2a310b0f66a.jpg)
 ![kitchen1](https://user-images.githubusercontent.com/9357097/81887404-a4a89000-9564-11ea-92ad-1a735788d3c5.jpg)
