@@ -1,13 +1,38 @@
 ---
-title: 'First blog post'
+title: 'Looking for flatmate!'
 date: 2020-05-13
 permalink: /flatmate/
 ---
 
-Hello we are looking for a flatmate!
+## Hello we are looking for a flatmate!
 
-The apartment is big and awesome. Check this pics.
+We have a room available in our big and cozy apartment located 5 minutes
+away from the Weizmann Institute. The room is available from June 1st onwards.
 
+- Our adress is: [HaRa'az Street 13, apartment 1](https://goo.gl/maps/MSEeAwBXmPQcwVJu5)
+
+The room has two windows and is big enough to fit confortably a double-size bed, a closet and something more
+as you can see in the pictures. It is next to a full bathroom that is mostly used by the flatmate of this room.
+
+The house has:
+
+- Three bedrooms, one for each of us.
+- Fully equipped kitchen, with microwave, oven, gas stove, fridge and more.
+- Two and a half bathrooms (one with tub, one next to the room in rent).
+- Washing room, with automatic washing mashine and dryer.
+- Dining room/living room, with a big cozy sofa, dining table, and big window that looks on the street
+
+It is also comfortably located in the first floor, so not many stairs to climb up ;)
+
+## The price:
+
+- Share of the rent 1640.65 ILS (proportional to the size of bedrooms, includes Arnona).
+- Utilities (Internet, gas, electricity, and water) round about 200 ILS or less per month.
+- You will need to issue a check at the name of the landlord as a guarantee for your stay.
+
+Here some pics:
+
+![ItsUs](https://user-images.githubusercontent.com/9357097/81889085-58f7e580-9568-11ea-8628-7ad96cc5da71.jpg)
 ![dinRoom1](https://user-images.githubusercontent.com/9357097/81887373-9195c000-9564-11ea-8e91-8f4608380455.jpg)
 ![dinRoom2](https://user-images.githubusercontent.com/9357097/81887392-9ce8eb80-9564-11ea-8eec-e2a310b0f66a.jpg)
 ![kitchen1](https://user-images.githubusercontent.com/9357097/81887404-a4a89000-9564-11ea-92ad-1a735788d3c5.jpg)
