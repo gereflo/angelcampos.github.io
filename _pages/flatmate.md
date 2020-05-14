@@ -30,7 +30,11 @@ It is also comfortably located in the first floor, so not many stairs to climb u
 - Utilities (Internet, gas, electricity, and water) round about **~200 ILS** or less per month.
 - You will need to issue a check at the name of the landlord as a guarantee for your stay.
 
-Here some pics:
+## Contact:
+
+If you are interested please send me a message through WhatsApp (+972 0587817336), my social networks or email.
+
+### Some pics:
 
 <img src="https://user-images.githubusercontent.com/9357097/81891114-403dfe80-956d-11ea-8d65-b2965e94a021.jpg" alt="ItsUs" style="width:200px;"/>
 <img src="https://user-images.githubusercontent.com/9357097/81887373-9195c000-9564-11ea-8e91-8f4608380455.jpg" alt="dinRoom1" style="width:200px;"/>
