@@ -35,8 +35,8 @@ If you are interested please send me a message through WhatsApp (+972 0587817336
 
 ### Some pics:
 
-<img src="https://user-images.githubusercontent.com/9357097/81891114-403dfe80-956d-11ea-8d65-b2965e94a021.jpg" alt="ItsUs" style="width:400px;"/>
-<img src="https://user-images.githubusercontent.com/9357097/81887373-9195c000-9564-11ea-8e91-8f4608380455.jpg" alt="dinRoom1" style="width:400px;"/>
+<img src="https://user-images.githubusercontent.com/9357097/81891114-403dfe80-956d-11ea-8d65-b2965e94a021.jpg" alt="ItsUs" style="height:350px;"/>
+<img src="https://user-images.githubusercontent.com/9357097/81887373-9195c000-9564-11ea-8e91-8f4608380455.jpg" alt="dinRoom1" style="height:350px;"/>
 
 <img src="https://user-images.githubusercontent.com/9357097/81887441-b12ce880-9564-11ea-9253-b6281dbbdea2.jpg" alt="room1" style="height:200px;"/>
 <img src="https://user-images.githubusercontent.com/9357097/81887392-9ce8eb80-9564-11ea-8eec-e2a310b0f66a.jpg" alt="dinRoom2" style="height:200px;"/>
