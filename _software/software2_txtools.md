@@ -17,7 +17,7 @@ enables a quick and simplified analysis, to closely inspection summary
 metrics per transcript, at nucleotide resolution, i.e. coverage,
 read-starts, read-ends, deletions, and nucleotide frequency.
 
-![mainFunctions](man/figures/readme_1.png)
+![mainFunctions](https://github.com/AngelCampos/txtools/blob/dev_plots/man/figures/readme_1.png)
 
 ## Quick example
 
@@ -106,7 +106,7 @@ location.
 tx_plot_nucFreq(DT, gene = "NM_079901", txRange = window_around(3803, 15))
 ```
 
-![](man/figures/README-plotNucFreq-1.png)<!-- -->
+![](https://raw.githubusercontent.com/AngelCampos/txtools/dev_plots/man/figures/README-plotNucFreq-1.png)<!-- -->
 
 ## Installation
 
