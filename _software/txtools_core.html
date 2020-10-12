@@ -1,0 +1,504 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+<meta charset="utf-8" />
+<meta name="generator" content="pandoc" />
+<meta http-equiv="X-UA-Compatible" content="IE=EDGE" />
+
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+
+
+
+<title>txtools_core</title>
+
+
+<style type="text/css">
+  code{white-space: pre-wrap;}
+  span.smallcaps{font-variant: small-caps;}
+  span.underline{text-decoration: underline;}
+  div.column{display: inline-block; vertical-align: top; width: 50%;}
+  div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+  ul.task-list{list-style: none;}
+      a.sourceLine { display: inline-block; line-height: 1.25; }
+  a.sourceLine { pointer-events: none; color: inherit; text-decoration: inherit; }
+  a.sourceLine:empty { height: 1.2em; }
+  .sourceCode { overflow: visible; }
+  code.sourceCode { white-space: pre; position: relative; }
+  div.sourceCode { margin: 1em 0; }
+  pre.sourceCode { margin: 0; }
+  @media screen {
+  div.sourceCode { overflow: auto; }
+  }
+  @media print {
+  code.sourceCode { white-space: pre-wrap; }
+  a.sourceLine { text-indent: -1em; padding-left: 1em; }
+  }
+  pre.numberSource a.sourceLine
+    { position: relative; left: -4em; }
+  pre.numberSource a.sourceLine::before
+    { content: attr(data-line-number);
+      position: relative; left: -1em; text-align: right; vertical-align: baseline;
+      border: none; pointer-events: all; display: inline-block;
+      -webkit-touch-callout: none; -webkit-user-select: none;
+      -khtml-user-select: none; -moz-user-select: none;
+      -ms-user-select: none; user-select: none;
+      padding: 0 4px; width: 4em;
+      color: #aaaaaa;
+    }
+  pre.numberSource { margin-left: 3em; border-left: 1px solid #aaaaaa;  padding-left: 4px; }
+  div.sourceCode
+    {  }
+  @media screen {
+  a.sourceLine::before { text-decoration: underline; }
+  }
+  code span.al { color: #ff0000; font-weight: bold; } /* Alert */
+  code span.an { color: #60a0b0; font-weight: bold; font-style: italic; } /* Annotation */
+  code span.at { color: #7d9029; } /* Attribute */
+  code span.bn { color: #40a070; } /* BaseN */
+  code span.bu { } /* BuiltIn */
+  code span.cf { color: #007020; font-weight: bold; } /* ControlFlow */
+  code span.ch { color: #4070a0; } /* Char */
+  code span.cn { color: #880000; } /* Constant */
+  code span.co { color: #60a0b0; font-style: italic; } /* Comment */
+  code span.cv { color: #60a0b0; font-weight: bold; font-style: italic; } /* CommentVar */
+  code span.do { color: #ba2121; font-style: italic; } /* Documentation */
+  code span.dt { color: #902000; } /* DataType */
+  code span.dv { color: #40a070; } /* DecVal */
+  code span.er { color: #ff0000; font-weight: bold; } /* Error */
+  code span.ex { } /* Extension */
+  code span.fl { color: #40a070; } /* Float */
+  code span.fu { color: #06287e; } /* Function */
+  code span.im { } /* Import */
+  code span.in { color: #60a0b0; font-weight: bold; font-style: italic; } /* Information */
+  code span.kw { color: #007020; font-weight: bold; } /* Keyword */
+  code span.op { color: #666666; } /* Operator */
+  code span.ot { color: #007020; } /* Other */
+  code span.pp { color: #bc7a00; } /* Preprocessor */
+  code span.sc { color: #4070a0; } /* SpecialChar */
+  code span.ss { color: #bb6688; } /* SpecialString */
+  code span.st { color: #4070a0; } /* String */
+  code span.va { color: #19177c; } /* Variable */
+  code span.vs { color: #4070a0; } /* VerbatimString */
+  code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warning */
+    </style>
+
+
+<style type="text/css">code{white-space: pre;}</style>
+<style type="text/css" data-origin="pandoc">
+a.sourceLine { display: inline-block; line-height: 1.25; }
+a.sourceLine { pointer-events: none; color: inherit; text-decoration: inherit; }
+a.sourceLine:empty { height: 1.2em; }
+.sourceCode { overflow: visible; }
+code.sourceCode { white-space: pre; position: relative; }
+div.sourceCode { margin: 1em 0; }
+pre.sourceCode { margin: 0; }
+@media screen {
+div.sourceCode { overflow: auto; }
+}
+@media print {
+code.sourceCode { white-space: pre-wrap; }
+a.sourceLine { text-indent: -1em; padding-left: 1em; }
+}
+pre.numberSource a.sourceLine
+  { position: relative; left: -4em; }
+pre.numberSource a.sourceLine::before
+  { content: attr(data-line-number);
+    position: relative; left: -1em; text-align: right; vertical-align: baseline;
+    border: none; pointer-events: all; display: inline-block;
+    -webkit-touch-callout: none; -webkit-user-select: none;
+    -khtml-user-select: none; -moz-user-select: none;
+    -ms-user-select: none; user-select: none;
+    padding: 0 4px; width: 4em;
+    color: #aaaaaa;
+  }
+pre.numberSource { margin-left: 3em; border-left: 1px solid #aaaaaa;  padding-left: 4px; }
+div.sourceCode
+  {  }
+@media screen {
+a.sourceLine::before { text-decoration: underline; }
+}
+code span.al { color: #ff0000; font-weight: bold; } /* Alert */
+code span.an { color: #60a0b0; font-weight: bold; font-style: italic; } /* Annotation */
+code span.at { color: #7d9029; } /* Attribute */
+code span.bn { color: #40a070; } /* BaseN */
+code span.bu { } /* BuiltIn */
+code span.cf { color: #007020; font-weight: bold; } /* ControlFlow */
+code span.ch { color: #4070a0; } /* Char */
+code span.cn { color: #880000; } /* Constant */
+code span.co { color: #60a0b0; font-style: italic; } /* Comment */
+code span.cv { color: #60a0b0; font-weight: bold; font-style: italic; } /* CommentVar */
+code span.do { color: #ba2121; font-style: italic; } /* Documentation */
+code span.dt { color: #902000; } /* DataType */
+code span.dv { color: #40a070; } /* DecVal */
+code span.er { color: #ff0000; font-weight: bold; } /* Error */
+code span.ex { } /* Extension */
+code span.fl { color: #40a070; } /* Float */
+code span.fu { color: #06287e; } /* Function */
+code span.im { } /* Import */
+code span.in { color: #60a0b0; font-weight: bold; font-style: italic; } /* Information */
+code span.kw { color: #007020; font-weight: bold; } /* Keyword */
+code span.op { color: #666666; } /* Operator */
+code span.ot { color: #007020; } /* Other */
+code span.pp { color: #bc7a00; } /* Preprocessor */
+code span.sc { color: #4070a0; } /* SpecialChar */
+code span.ss { color: #bb6688; } /* SpecialString */
+code span.st { color: #4070a0; } /* String */
+code span.va { color: #19177c; } /* Variable */
+code span.vs { color: #4070a0; } /* VerbatimString */
+code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warning */
+
+</style>
+<script>
+// apply pandoc div.sourceCode style to pre.sourceCode instead
+(function() {
+  var sheets = document.styleSheets;
+  for (var i = 0; i < sheets.length; i++) {
+    if (sheets[i].ownerNode.dataset["origin"] !== "pandoc") continue;
+    try { var rules = sheets[i].cssRules; } catch (e) { continue; }
+    for (var j = 0; j < rules.length; j++) {
+      var rule = rules[j];
+      // check if there is a div.sourceCode rule
+      if (rule.type !== rule.STYLE_RULE || rule.selectorText !== "div.sourceCode") continue;
+      var style = rule.style.cssText;
+      // check if color or background-color is set
+      if (rule.style.color === '' && rule.style.backgroundColor === '') continue;
+      // replace div.sourceCode by a pre.sourceCode rule
+      sheets[i].deleteRule(j);
+      sheets[i].insertRule('pre.sourceCode{' + style + '}', j);
+    }
+  }
+})();
+</script>
+
+
+
+<style type="text/css">body {
+background-color: #fff;
+margin: 1em auto;
+max-width: 700px;
+overflow: visible;
+padding-left: 2em;
+padding-right: 2em;
+font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+font-size: 14px;
+line-height: 1.35;
+}
+#TOC {
+clear: both;
+margin: 0 0 10px 10px;
+padding: 4px;
+width: 400px;
+border: 1px solid #CCCCCC;
+border-radius: 5px;
+background-color: #f6f6f6;
+font-size: 13px;
+line-height: 1.3;
+}
+#TOC .toctitle {
+font-weight: bold;
+font-size: 15px;
+margin-left: 5px;
+}
+#TOC ul {
+padding-left: 40px;
+margin-left: -1.5em;
+margin-top: 5px;
+margin-bottom: 5px;
+}
+#TOC ul ul {
+margin-left: -2em;
+}
+#TOC li {
+line-height: 16px;
+}
+table {
+margin: 1em auto;
+border-width: 1px;
+border-color: #DDDDDD;
+border-style: outset;
+border-collapse: collapse;
+}
+table th {
+border-width: 2px;
+padding: 5px;
+border-style: inset;
+}
+table td {
+border-width: 1px;
+border-style: inset;
+line-height: 18px;
+padding: 5px 5px;
+}
+table, table th, table td {
+border-left-style: none;
+border-right-style: none;
+}
+table thead, table tr.even {
+background-color: #f7f7f7;
+}
+p {
+margin: 0.5em 0;
+}
+blockquote {
+background-color: #f6f6f6;
+padding: 0.25em 0.75em;
+}
+hr {
+border-style: solid;
+border: none;
+border-top: 1px solid #777;
+margin: 28px 0;
+}
+dl {
+margin-left: 0;
+}
+dl dd {
+margin-bottom: 13px;
+margin-left: 13px;
+}
+dl dt {
+font-weight: bold;
+}
+ul {
+margin-top: 0;
+}
+ul li {
+list-style: circle outside;
+}
+ul ul {
+margin-bottom: 0;
+}
+pre, code {
+background-color: #f7f7f7;
+border-radius: 3px;
+color: #333;
+white-space: pre-wrap; 
+}
+pre {
+border-radius: 3px;
+margin: 5px 0px 10px 0px;
+padding: 10px;
+}
+pre:not([class]) {
+background-color: #f7f7f7;
+}
+code {
+font-family: Consolas, Monaco, 'Courier New', monospace;
+font-size: 85%;
+}
+p > code, li > code {
+padding: 2px 0px;
+}
+div.figure {
+text-align: center;
+}
+img {
+background-color: #FFFFFF;
+padding: 2px;
+border: 1px solid #DDDDDD;
+border-radius: 3px;
+border: 1px solid #CCCCCC;
+margin: 0 5px;
+}
+h1 {
+margin-top: 0;
+font-size: 35px;
+line-height: 40px;
+}
+h2 {
+border-bottom: 4px solid #f7f7f7;
+padding-top: 10px;
+padding-bottom: 2px;
+font-size: 145%;
+}
+h3 {
+border-bottom: 2px solid #f7f7f7;
+padding-top: 10px;
+font-size: 120%;
+}
+h4 {
+border-bottom: 1px solid #f7f7f7;
+margin-left: 8px;
+font-size: 105%;
+}
+h5, h6 {
+border-bottom: 1px solid #ccc;
+font-size: 105%;
+}
+a {
+color: #0033dd;
+text-decoration: none;
+}
+a:hover {
+color: #6666ff; }
+a:visited {
+color: #800080; }
+a:visited:hover {
+color: #BB00BB; }
+a[href^="http:"] {
+text-decoration: underline; }
+a[href^="https:"] {
+text-decoration: underline; }
+
+code > span.kw { color: #555; font-weight: bold; } 
+code > span.dt { color: #902000; } 
+code > span.dv { color: #40a070; } 
+code > span.bn { color: #d14; } 
+code > span.fl { color: #d14; } 
+code > span.ch { color: #d14; } 
+code > span.st { color: #d14; } 
+code > span.co { color: #888888; font-style: italic; } 
+code > span.ot { color: #007020; } 
+code > span.al { color: #ff0000; font-weight: bold; } 
+code > span.fu { color: #900; font-weight: bold; } 
+code > span.er { color: #a61717; background-color: #e3d2d2; } 
+</style>
+
+
+
+
+</head>
+
+<body>
+
+
+
+
+<h1 class="title toc-ignore">txtools_core</h1>
+
+
+
+<div id="txtools.-the-full-tour." class="section level1">
+<h1>txtools. The full tour.</h1>
+<p>The aim of txtools is to provide a versatile framework to analyze transcriptomic data in a quick and simple manner.</p>
+<p>To acomplish this we propose the processing of data in two stages, and the use of two data structures which is the output at each step:</p>
+<ol style="list-style-type: decimal">
+<li>Transfer read-alignments from a <em>genomic</em> to a <strong><em>transcriptomic</em></strong> coordinates space.</li>
+<li>Summarize transcriptomic-alignments into table structures.</li>
+</ol>
+<div id="loading-the-data" class="section level2">
+<h2>Loading the data</h2>
+<p>The first step of the txtools framework is to transfer read-alignments from a genomic coordinate system to a transcriptomic coordinate system.</p>
+<p>Note: <em>This step can be circumvented by aligning to the transcriptome, but in most</em> <em>cases it is necessary and desirable to keep track of both the genomic location</em> <em>of transcripts and the read-alignments data.</em></p>
+<p>To use txtools it is REQUIRED to have a <strong>Gene Annotation</strong> file in the form of a BED-6/12 file. Importantly, a BED-12 file contains the information to construct the exon structure, while using a BED6 assumes that the gene consists of a single exon block.</p>
+<p>Additionally it is recommended to have a <strong>Reference Genome</strong> sequence file in the form of a FASTA file, in which each entry corresponds to each chromosome.</p>
+<p>Using txtools we can seamlessly load RNA-seq data into the R environment with the <code>tx_load_bam()</code> function. For this example we will use a paired-end BAM file and we will require the function to load the sequence data.</p>
+<div class="sourceCode" id="cb1"><pre class="sourceCode r"><code class="sourceCode r"><a class="sourceLine" id="cb1-1" data-line-number="1"><span class="kw">library</span>(txtools)</a>
+<a class="sourceLine" id="cb1-2" data-line-number="2"><span class="kw">library</span>(pasillaBamSubset)</a>
+<a class="sourceLine" id="cb1-3" data-line-number="3"></a>
+<a class="sourceLine" id="cb1-4" data-line-number="4"><span class="co"># Loading gene-annotation in BED-12 format.</span></a>
+<a class="sourceLine" id="cb1-5" data-line-number="5">pathToBED &lt;-<span class="st"> </span><span class="kw">tx_dm3_geneAnnot</span>()</a>
+<a class="sourceLine" id="cb1-6" data-line-number="6">dm3_geneAnnot &lt;-<span class="st"> </span><span class="kw">tx_load_bed</span>(pathToBED)</a>
+<a class="sourceLine" id="cb1-7" data-line-number="7"></a>
+<a class="sourceLine" id="cb1-8" data-line-number="8"><span class="co"># Loading genome</span></a>
+<a class="sourceLine" id="cb1-9" data-line-number="9">fastaFile &lt;-<span class="st"> </span>pasillaBamSubset<span class="op">::</span><span class="kw">dm3_chr4</span>()</a>
+<a class="sourceLine" id="cb1-10" data-line-number="10">dm3_genome &lt;-<span class="st"> </span><span class="kw">tx_load_genome</span>(fastaFile)</a>
+<a class="sourceLine" id="cb1-11" data-line-number="11"></a>
+<a class="sourceLine" id="cb1-12" data-line-number="12"><span class="co"># Loading RNA-seq data (paired-end)</span></a>
+<a class="sourceLine" id="cb1-13" data-line-number="13">pathToBAM &lt;-<span class="st"> </span>pasillaBamSubset<span class="op">::</span><span class="kw">untreated3_chr4</span>()</a>
+<a class="sourceLine" id="cb1-14" data-line-number="14">bam_PE &lt;-<span class="st"> </span><span class="kw">tx_load_bam</span>(<span class="dt">file =</span> pathToBAM, <span class="dt">pairedEnd =</span> <span class="ot">TRUE</span>, <span class="dt">loadSeq =</span> <span class="ot">TRUE</span>)</a>
+<a class="sourceLine" id="cb1-15" data-line-number="15"><span class="co">#&gt; Reading number of records in file </span></a>
+<a class="sourceLine" id="cb1-16" data-line-number="16"><span class="co">#&gt; 175346 number of BAM records </span></a>
+<a class="sourceLine" id="cb1-17" data-line-number="17"><span class="co">#&gt; Loading BAM file </span></a>
+<a class="sourceLine" id="cb1-18" data-line-number="18"><span class="co">#&gt; </span></a>
+<a class="sourceLine" id="cb1-19" data-line-number="19">  <span class="op">|</span><span class="st">                                                                            </span></a>
+<a class="sourceLine" id="cb1-20" data-line-number="20"><span class="st">  </span><span class="er">|</span><span class="st">                                                                      </span><span class="er">|</span><span class="st">   </span><span class="dv">0</span>%</a>
+<a class="sourceLine" id="cb1-21" data-line-number="21">  <span class="op">|</span><span class="st">                                                                            </span></a>
+<a class="sourceLine" id="cb1-22" data-line-number="22"><span class="st">  </span><span class="er">|======================================================================|</span><span class="st"> </span><span class="dv">100</span>%</a>
+<a class="sourceLine" id="cb1-23" data-line-number="23"><span class="co">#&gt;  </span></a>
+<a class="sourceLine" id="cb1-24" data-line-number="24"><span class="co">#&gt; 75409 Reads succesfully loaded </span></a>
+<a class="sourceLine" id="cb1-25" data-line-number="25"><span class="co">#&gt; Dumped ambiguous reads: 0</span></a>
+<a class="sourceLine" id="cb1-26" data-line-number="26"><span class="kw">summary</span>(bam_PE)</a>
+<a class="sourceLine" id="cb1-27" data-line-number="27"><span class="co">#&gt; [1] &quot;GAlignmentPairs object of length 75409 with 0 metadata columns&quot;</span></a></code></pre></div>
+</div>
+<div id="from-genomic-to-transcriptomic" class="section level2">
+<h2>From Genomic to Transcriptomic</h2>
+<div id="tx_reads" class="section level3">
+<h3>tx_reads()</h3>
+<p>Now to convert the genomic-alignments into their transcriptomic versions we use the <code>tx_reads()</code> function, and require it to keep the sequence data setting the <code>withSeq</code> argument to ‘TRUE’, this will allow us to later summarize nucleotide frequency. If nucleotide frequency is not required in downstream analysis setting <code>withSeq</code> to ‘FALSE’ will expedite the processing.</p>
+<p>Importantly, <code>tx_reads()</code> can use multiple cores to accelerate processing, just set the <code>nCores</code> argument to the ammount of cores you want to use. In practice a number of cores between 6-8 is enough, but this may depend on your infrastructure.</p>
+<div class="sourceCode" id="cb2"><pre class="sourceCode r"><code class="sourceCode r"><a class="sourceLine" id="cb2-1" data-line-number="1">txreads_PE &lt;-<span class="st"> </span><span class="kw">tx_reads</span>(<span class="dt">reads =</span> bam_PE, <span class="dt">geneAnnot =</span> dm3_geneAnnot, </a>
+<a class="sourceLine" id="cb2-2" data-line-number="2">                       <span class="dt">withSeq =</span> <span class="ot">TRUE</span>, <span class="dt">minReads =</span> <span class="dv">1</span>, <span class="dt">nCores =</span> <span class="dv">1</span>)</a>
+<a class="sourceLine" id="cb2-3" data-line-number="3"><span class="co">#&gt; Processing 75409 reads, using 10 gene models. </span></a>
+<a class="sourceLine" id="cb2-4" data-line-number="4"><span class="co">#&gt; 12563 reads overlap 10 gene models </span></a>
+<a class="sourceLine" id="cb2-5" data-line-number="5"><span class="co">#&gt; Filtering reads by gene model... </span></a>
+<a class="sourceLine" id="cb2-6" data-line-number="6"><span class="co">#&gt; Processing sequences. This may take several minutes depending on geneAnnot size ... </span></a>
+<a class="sourceLine" id="cb2-7" data-line-number="7"><span class="co">#&gt; Output contains: 12252 unique reads in 10 gene models</span></a></code></pre></div>
+<p>The resulting object is a <code>CompressedGRangesList</code>, a list of GRanges, grouped by their corresponding gene. <code>GRanges</code> is a class from the <code>GenomicRanges</code> package. Therefore they can be manipulated using this package. At the time of writing, txtools does not focus on the use of <code>GRanges</code>. nevertheless provides some functions to manipulate them before summarizing them into data.tables.</p>
+</div>
+<div id="txtools-function-for-grangeslists" class="section level3">
+<h3>txtools function for GRangesLists</h3>
+<p><strong>tx_counts</strong></p>
+<p>A function that simply counts the num</p>
+<div class="sourceCode" id="cb3"><pre class="sourceCode r"><code class="sourceCode r"><a class="sourceLine" id="cb3-1" data-line-number="1"><span class="kw">tx_counts</span>(txreads_PE)</a>
+<a class="sourceLine" id="cb3-2" data-line-number="2"><span class="co">#&gt; NM_001258475    NM_166714    NM_079879 NM_001169348    NM_079901 NM_001144385 </span></a>
+<a class="sourceLine" id="cb3-3" data-line-number="3"><span class="co">#&gt;         6649         5230         6635         1272         2495         2497 </span></a>
+<a class="sourceLine" id="cb3-4" data-line-number="4"><span class="co">#&gt; NM_001103382 NM_001272152 NM_001297790    NM_166808 </span></a>
+<a class="sourceLine" id="cb3-5" data-line-number="5"><span class="co">#&gt;         2464         1821         1818         1818</span></a></code></pre></div>
+<p><strong>tx_sample_GRList()</strong></p>
+<p>A function that samples GRanges from a GRangesList, useful for simulation of lower coverages in samples.</p>
+<div class="sourceCode" id="cb4"><pre class="sourceCode r"><code class="sourceCode r"><a class="sourceLine" id="cb4-1" data-line-number="1">txreads_PE_half &lt;-<span class="st"> </span><span class="kw">tx_sample_GRList</span>(txreads_PE, <span class="fl">0.5</span>)</a>
+<a class="sourceLine" id="cb4-2" data-line-number="2"><span class="kw">tx_counts</span>(txreads_PE_half)</a>
+<a class="sourceLine" id="cb4-3" data-line-number="3"><span class="co">#&gt; NM_001258475    NM_166714    NM_079879 NM_001169348    NM_079901 NM_001144385 </span></a>
+<a class="sourceLine" id="cb4-4" data-line-number="4"><span class="co">#&gt;         3353         2606         3319          641         1253         1254 </span></a>
+<a class="sourceLine" id="cb4-5" data-line-number="5"><span class="co">#&gt; NM_001103382 NM_001272152 NM_001297790    NM_166808 </span></a>
+<a class="sourceLine" id="cb4-6" data-line-number="6"><span class="co">#&gt;         1199          931          901          901</span></a></code></pre></div>
+<p><strong>tx_filter_maxWidth()</strong></p>
+<p>A function that filters out Granges longer than a certain width. Useful to filter spurious alignments that are not possible due to RNA insert length selection.</p>
+<div class="sourceCode" id="cb5"><pre class="sourceCode r"><code class="sourceCode r"><a class="sourceLine" id="cb5-1" data-line-number="1">txreads_PE_filtered &lt;-<span class="st"> </span><span class="kw">tx_filter_maxWidth</span>(txreads_PE, <span class="dv">600</span>)</a>
+<a class="sourceLine" id="cb5-2" data-line-number="2"></a>
+<a class="sourceLine" id="cb5-3" data-line-number="3"><span class="kw">boxplot</span>(<span class="kw">unlist</span>(GenomicRanges<span class="op">::</span><span class="kw">width</span>(txreads_PE)), <span class="dt">xlab =</span> <span class="st">&quot;Insert Width&quot;</span>,</a>
+<a class="sourceLine" id="cb5-4" data-line-number="4">        <span class="dt">horizontal =</span> T, <span class="dt">main =</span> <span class="st">&quot;Not filtered alignments&quot;</span>) </a>
+<a class="sourceLine" id="cb5-5" data-line-number="5"><span class="kw">boxplot</span>(<span class="kw">unlist</span>(GenomicRanges<span class="op">::</span><span class="kw">width</span>(txreads_PE_filtered)), <span class="dt">xlab =</span> <span class="st">&quot;Insert Width&quot;</span>,</a>
+<a class="sourceLine" id="cb5-6" data-line-number="6">        <span class="dt">horizontal =</span> T, <span class="dt">main =</span> <span class="st">&quot;Filtered alignments&quot;</span>) </a></code></pre></div>
+<p><img src="data:image/png;base64,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" /><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAkAAAADACAMAAADbayz1AAADAFBMVEUAAAABAQECAgIDAwMEBAQFBQUGBgYHBwcICAgJCQkKCgoLCwsMDAwNDQ0ODg4PDw8QEBARERESEhITExMUFBQVFRUWFhYXFxcYGBgZGRkaGhobGxscHBwdHR0eHh4fHx8gICAhISEiIiIjIyMkJCQlJSUmJiYnJycoKCgpKSkqKiorKyssLCwtLS0uLi4vLy8wMDAxMTEyMjIzMzM0NDQ1NTU2NjY3Nzc4ODg5OTk6Ojo7Ozs8PDw9PT0+Pj4/Pz9AQEBBQUFCQkJDQ0NERERFRUVGRkZHR0dISEhJSUlKSkpLS0tMTExNTU1OTk5PT09QUFBRUVFSUlJTU1NUVFRVVVVWVlZXV1dYWFhZWVlaWlpbW1tcXFxdXV1eXl5fX19gYGBhYWFiYmJjY2NkZGRlZWVmZmZnZ2doaGhpaWlqampra2tsbGxtbW1ubm5vb29wcHBxcXFycnJzc3N0dHR1dXV2dnZ3d3d4eHh5eXl6enp7e3t8fHx9fX1+fn5/f3+AgICBgYGCgoKDg4OEhISFhYWGhoaHh4eIiIiJiYmKioqLi4uMjIyNjY2Ojo6Pj4+QkJCRkZGSkpKTk5OUlJSVlZWWlpaXl5eYmJiZmZmampqbm5ucnJydnZ2enp6fn5+goKChoaGioqKjo6OkpKSlpaWmpqanp6eoqKipqamqqqqrq6usrKytra2urq6vr6+wsLCxsbGysrKzs7O0tLS1tbW2tra3t7e4uLi5ubm6urq7u7u8vLy9vb2+vr6/v7/AwMDBwcHCwsLDw8PExMTFxcXGxsbHx8fIyMjJycnKysrLy8vMzMzNzc3Ozs7Pz8/Q0NDR0dHS0tLT09PU1NTV1dXW1tbX19fY2NjZ2dna2trb29vc3Nzd3d3e3t7f39/g4ODh4eHi4uLj4+Pk5OTl5eXm5ubn5+fo6Ojp6enq6urr6+vs7Ozt7e3u7u7v7+/w8PDx8fHy8vLz8/P09PT19fX29vb39/f4+Pj5+fn6+vr7+/v8/Pz9/f3+/v7////isF19AAAACXBIWXMAAA7DAAAOwwHHb6hkAAARQUlEQVR4nO2de3xM57rHn5lJ5DYxidwJQSKJuxKXEKcpUbVV3e+qiq0uKeXE2VQ32XapfWSLVCkNqqhbOVp3p6o25diOXsg+7HOIS0m3qltdQyTPed93zUzWzMRnkrxrSbY83z/Wu9Y7z/q9K2u+Zq01krUACUICqOgNIP65IYEIKUggQgoSiJCCBCKkIIEIKUggQgoSiJCCBCKkIIEIKUggQgoSiJCCBCKkIIEIKUggQgoSiJCCBCKkIIEIKUggQgoSiJCCBCKkIIEIKUggQgoSiJCCBCKkIIEIKUggQgoSiJCCBCKkIIEIKUggQopnWqBUsHEAXwJvVCal5ijAPNfecgQ9y1RBgZYC7CnV6noLVOoNqcw86wINSRdcwLXp72ookEiThQSq7DCBdjh0aCaQJpBAlR21QPYjTwo/pLVDzB3SwNxi4SP2UgJE3hvhf1nVg3nDakZPOqQSaGNSmG9s6mV0OIRdG1k7bk4OwHKRcXNEVEifi6w7Hpqc7hLQOhM3dzA3yuZrO4xlq7NtyM7O4eam06491T2jHVVPoOEhABH98JBFnBy9VCDe1AEAl1U9Z2vxucbFAi1QTqXi7qoF+jmW9/WzChSUwJdiH3GBgoL4fB8jn25Gx7HsddYNWaFEx9+uoJ0kybMukMIH6HwSXdgc6u06OgIgi7+pnhDW/CdVD5PiNx++AnaBHpuhXtamrgDb1UETATot6QlWgSA8/b0wYWw8QIv53Vh/y/lslZ5OYxXXKYew2lBjzc6xAPMrdl+Vl6oq0D6ATUyMYOgo3tSZReqeHw2QVIhFne0C5Q0atBNxHcACVdA9b2jEPlNetgmUg7hGVMSD58/4wB+8fsH7/tDMeSx7ndiQBwAJVxCnpH5SsfuqvDzrAg18h3PURaAPAGrHxMT4QKj4BGIHHlXPLoAVbPXVqnOgB3vn9vAHyFAFnQDgl2I7rQKxIDwmuuIhms3HQJyYNnEaq7hO+QRqAmDqMOe7itlD8jzrArmeAynv21T7V0R32JtaixWoepYpl0dfFwu00gzg2cxRoC8AVrGXTtlOotn8catA8aioo0wdxyquUwS6MMqTv9T89NPeO9pQVQWaD3DM9pLypqp6tgOsRHHIsgp0ygSJ+/OPOgp0BODf2WtfuRXIdSy1QIg31vT1A+ig777Qi6op0C7+8bEYsWhh+iLbm6rqOQeQXMSrbQKxVbYgLnIU6Gd29lKIOMStQK5j2QXahd+np59CvBkHlgrYQRpQBQVaDvCvl/PrQsjGI28AzLK9qeoefvG0vG/xVdhKgMTPsiyOAmF3gB7LB4FbgVzHUurEhrDToVar9i/0h6SnvXe0oQoKdER8f7fdW5yVdM23vanqnh9C+FxQ8VWYmS9HAKSrg04EWL8tciOQ61hKndiQon7K6ZHHX57+/tGCKigQ/iHcbxBiTu8o/4QPrd8Oi5LiHswdVLP2a3uLT6KPJ/s3mnbbDyLy1UH/2yu07uTv3QvkMpZSp2zIw4/aR3hF9f7r09opGvNMC6QvBRcu/MyaPeLrxSoLCVRu8r3A/yxebw+mf1T0plQgJFD5eRfA0MBXuZivspBAEuxOqe1Vr/u+it6MCoUEIqQggQgpSCBCChKIkIIEIqQggQgpSCBCChKIkIIEIqQggQgpSCBCChKIkIIEIqQggQgpSCBCChKIkIIEIqQggQgpSCBCChKIkIIEIqQggQgpSCBCChKIkIIEIqQggQgpSCBCCo0FmtKKeCZIulIxArX7+DjxLNDgRAUJ9F/a5hEVRDMSiJChkgi0I8ovLM255nobi6WBF2iP4U1tfxhXZhqUgZTxajfw9/P2q5lRcm3/GuaG/6NantGk3ss/irnzTf0Duz8uea3VbaI6HOAz+ycNmV3Secj4EL/6oqBwzZgRi+7buv97aiMfT7/u19nsw6UjR688OnXwjFynVe9m9kvoMOUb18xrc4e+uduxq3II1AMiXmxoCHYs2WHwTjLroA/H7H4L4wNtVPfxMQcW09L9umHO41VjMkWJRxo4c9XL2KqThd/YV+HXMN+BY+NM/Nb2WeCf3Nrkcb6kEZJMXVM7GEdh4ajYzE/fCt3l/PpDi6Fpl1B4FfFmYqdlHw+sf1bpf6eWL5hMPmDaj5ca9l6RHe35zroZoR87rJtT5/nqL8ZG153oHPqX8PFr328yoEDdVykEOsYfT4PnDQMdSryjbU840oF1brfQZ/9hK2kAvQ/b2RnsdtVVYgjrx4+HF59b+9gv8hDMda2N83rIpv0MD63L3cL5+zO9Gpsak9kcW6+EEbI8L7DpPuOxtW3z2czR8DtOBSmmq2w6A3Jxwli+vKiT6D4Qk+LRCM+EpBoDsde7fPkt5tiZkEvqdVstDsnBoqFTm25zzHxYm99jraDTEnVnpRCoi49o2vurK/Igjz8PSRcM4HOXDXEhNzf3ia3P8Rwr7wAMzLFzMPgOe5k/L+6JrbgttFExyAD+fDoT3zdgVAkuGJUjt8F2n2C/D0XjtQE3gDh6sfVcadZDNLGDem0QM12d7//q3U001QZhON8kfFzjF96kZvgZ2Z4ftcTLcMJ8ny/fNBfyZdWq52qt7ceav8UuH+6YebCtaPZ0ctiSyiBQM+Uf9fBq6oov2YgROgnE3tHpiCfqM57YPlmgSezl6DOIT2ytnz0mRSDxiJTX8SRgYglPKYDPROP5unXZ45Bogubi741i7mRJe76Ochb3fHKSUj5yhVOBaYpoLEnooRxxGp7i00HrPeAB4qz0II/VEWIZ/W/zZdWqf22zkB+8bgbsfskxc0tv0eQ0UXdWCoH6e4qmUQ11xS04jK300geC3G7hkwVyu2qkMoZ1KPEUwkxMM2JIA9daj6F8+hBsTwELEO9lgWkfHgB+psvXK2H3dRRNrTeGLRMzbb92KjArnxamCRh9ks/ctYgHHU77fYBpC2LfVSbDRctVvnwxhHX3Xa1a9UrQlhTWfPNcxjjHzO/ii3izoYe6s1IIlAdd2TQbZjuUBPldPayTQABn3G6hz+JsK0MBkrPtLHAv0LegMshDPM9y9PemhOnwuWttivEwO8BEediWx/mcZhdOzweyWa8wdpBh65Uwwk7jJjadabp8IOocm1nWsMCp4E3gx7a2hjs4L4Wp82iMcjg6HTrAGPDT9pqJpmhMHZKPp0OS30bcXvNX9bo9J0atxxuJs2oed8wsSshgBuXFOZwaVQqBcL7BI8wXkh1L8nwNgXpcxHPaud/CwSk2OrZsmZhSzOvu1+3uPB67CjN6wdCSautD9WCjx177cidjTHMfC3+u3DFPQ5AFIkq8jk8z1mwV5JmNuDR08OT2JTxDrA34hZqM7PPpcWqt306IfcWqyOaIEKa2AYIv4/1B9ce+Eezba0qXaMfvVK69GB0Y4Rcf6vJoxPNtW7/1aqjjtxGVQyC8NaRxt8MuRXMS2sxsbTJIY3RaNl/W9odx5aJZDGTy9TQajOa0yS1aJzR+5f9Krv3sX5q/qZbk0Kg+WYXKbFqLpCc94PLcW6/MEFL849MFe0py7KsuTUYo3/6c/mhx8QM2bmxMfa5Oy+Vi/tslS0/e2PjnL/Kd1/0mc9L0DVddM4v2Za6+5NhVSQQi/lkhgQgpKkygacvszOk6TB/6dNcpuEdPnYK79dUp+MWBOgWbS/v4KY0Fyh5TTLK5oT6EB+oUHByqU7Clpk7BvnV0CvY6UjECqdnWw31NuVgyzn1NuXh7jk7Bw/V6KPwL+3UKbvCESwMXSCAVJJAdEqg8kEB2SKDyQALZIYHKAwlkhwQqDySQHRKoPJBAdkig8kAC2akMAu3urVNwtl6/PD9Tr+cvj3T/q7blo8shnYIbnitloY4CPb6pU/DD2zoF37vvvqZc/PpIp+DrRToFXyttIf1tPCEFCURIQQIRUpBAhBQkECEFCURIQQIRUpBAhBQkECEFCURIQQIRUpBAhBT6CbS1tSX5O00T09IcgzUZoTCjvTle/M2xtrl4e2Jdv+fWOeRptkuKOg/TIXib+Hv/0WUL1k2gvYbByzv6XdQw8WxQmkOwNiPMgtGfjjf+UfNcHOz7h/UDYIf2wYwPgQukdXBmcAZjb9mCdROoywtFeCdimmZ5Bzt6QppDsCYjPAoYxaYTfR9rnIs3YTH7pIgbqvUGcy74+3OBtA5OfcE6U5ZgvQS6ZfiITcfEaBb4t4wM8QlkD9ZmhHPA78izGc5rnItnX/47myb113qDGUWdhicN03xPIHYbjeJ+IGUK1kugU8D/NjbLV8vMmDR1sDYj5P/9AZtO9rqvcS7n4dkV3lu03mDGkogbXCDNg2OT44zRmUVlC9ZLoH3Ab460BrT85UEhkD1YwxFWeUzWI3ceQKoOG3ze/AVygbQOLqwWsmTnOMN7ZQvWS6AvgX+Cr4YbGmYKgezBmo2Q1x9eLdAhF/O+nuM9VfPgok5MHi6Q1sGPPudnyyPNhWUK1kugk8DvFJTlpWWmEMgerNUImwOjt+qRK/idV4HWwStr5N661W7ALc2DFbbC2TIF6yXQdcPHbDq+hPuXlh8hkD1YoxE2G0aKW8Fpnbs1gX+3tBzuaB2cZr0/4+daB/90gP+G/udwtUzBul3Gd+7OzlCjpmsZKQQqDtZkhEdho61z2uZiDvAnWgyvq3lw7gFG0y4HrmkdfAr4kxVeq1+2LdZNoN2myTt6Bpb2r4tKhSKQPViTEfbDeP7tWcY9jXOx6LnwjLUjDSu13mAFfg6keXC3oD+tGWrYWrZg/f4rY3MbS+fvNU1UBCoO1mKEbOsB4YrGuYhXxjTyb73JIU+7XSIE0jr40bTG1Tv8ZxmD6T9TCSlIIEIKEoiQggQipCCBCClIIEIKEoiQggQipCCBCClIIEIKEoiQggQipCCBCClIIEIKEoiQggQipCCBCClIIEIKEoiQggQipCCBCClIIEIKEoiQggQipCCBCClIIEIKEsjOUrjsruQ/NohmBlxg043wb3whLAUDltoigpWauhm6bWVlgwSyUwqBhvUSzZfAb9/7W2jBpufhj/jyNltEsFJDAlVFSi/QPU/+3Oh6LQ1XENfDQVUECVSF4QLVXZvRyDLgBuIPXQOCev/Ielcl+DX9lLWR62cGhQDALV7avhViLuw2rUWc5J2PwewQdm9sZGTq+8HYjtfUnT87xtJPy9v7VVpIIDtCoKSeuxZ5TcB7oYnZmWFdELOMkzYOh0+YQJ0bTjvZM+Usv+8Yvu1xD5dZHrd7DbFNMgqBUnxnr+oQEIyXeE3dWn12zq6m1+PtKxUkkB0hUDwTZERbPA6HETdNwLs1+O25hkQzgSJv2A9huBcOYP9eODMC86vNEgIdhM38Zl62Q1jjIsThHSrwh3lqkEB2hEBT2My0BLxuabnuFzZ7DE6x6TZjAUaOw2KB7nq+Vxj0AX4DOUdgvxAoozq/weBUm0D8+iytXUX9JE8TEsiOEOg9FALhyYHVoc0O3GK9gdlFjJyHxQJhYo9v4TQWVP/zgmr3hUBpcbw70ybQfCSBqhxCIK4JFwjx8ZHeHmeOwNc/cO5jJL+wsgs0LXheLdb0fGlAEgqBMh0/gXgxCVTFUAu0MfwSf47G7lt+7PwZ/9QHnQTaA9GvsWaxT8QMFAIdgY3sHKgOCVSFUQt0zjvpkw8Sg6/jbM/frR1vmGsVaGTcVwWi9o4HrGHNGQB+U0p+FdbVJ31FYkywUkMCVUUcDmG7W5uDfvMDW1jUzDduIVoFOhjt/6tS3A7yeFPP4y6i9Xug2jXH7wpWakgggigdJBAhBQlESEECEVKQQIQUJBAhBQlESEECEVKQQIQUJBAhBQlESEECEVKQQIQUJBAhBQlESEECEVKQQIQUJBAhBQlESEECEVKQQIQUJBAhBQlESEECEVKQQIQU/w/rxvBbU/rNJwAAAABJRU5ErkJggg==" /></p>
+</div>
+</div>
+<div id="summarizing-transcriptomic-granges" class="section level2">
+<h2>Summarizing transcriptomic GRanges</h2>
+<div id="tx_makedt_-functions" class="section level3">
+<h3>tx_makeDT_* functions</h3>
+<p>Due to GRanges contrains it is not possible to keep summarized metrics into the same structure as GRanges or GRangesList objects. For example, the coverage of a certain gene pertains to an specific range of coordinates and cannot be assigned to an element in particular. This is the reason we opt to create a summarized table that holds the relevant information from the reads in a way that is easier to interpret and further analyze.</p>
+<p>To summarize GRangesList txtools contains three functions which do the job:</p>
+<ul>
+<li><strong>tx_makeDT_coverage()</strong></li>
+<li><strong>tx_makeDT_nucFreq()</strong></li>
+<li><strong>tx_makeDT_covNucFreq()</strong></li>
+</ul>
+<div class="sourceCode" id="cb6"><pre class="sourceCode r"><code class="sourceCode r"><a class="sourceLine" id="cb6-1" data-line-number="1">DT_cov &lt;-<span class="st"> </span><span class="kw">tx_makeDT_covNucFreq</span>(txreads_PE_filtered, <span class="dt">geneAnnot =</span> dm3_geneAnnot,</a>
+<a class="sourceLine" id="cb6-2" data-line-number="2">                     dm3_genome, <span class="dt">nCores =</span> <span class="dv">1</span>)</a>
+<a class="sourceLine" id="cb6-3" data-line-number="3"><span class="kw">unique</span>(DT_cov<span class="op">$</span>gene)</a>
+<a class="sourceLine" id="cb6-4" data-line-number="4"><span class="co">#&gt;  [1] NM_001258475 NM_166714    NM_079879    NM_001169348 NM_079901   </span></a>
+<a class="sourceLine" id="cb6-5" data-line-number="5"><span class="co">#&gt;  [6] NM_001144385 NM_001103382 NM_001272152 NM_001297790 NM_166808   </span></a>
+<a class="sourceLine" id="cb6-6" data-line-number="6"><span class="co">#&gt; 10 Levels: NM_001258475 NM_166714 NM_079879 NM_001169348 ... NM_166808</span></a>
+<a class="sourceLine" id="cb6-7" data-line-number="7"><span class="kw">barplot</span>(DT_cov[gene <span class="op">==</span><span class="st"> &quot;NM_079879&quot;</span>,]<span class="op">$</span>cov)</a></code></pre></div>
+<p><img src="data:image/png;base64,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" /><!-- --></p>
+<ol start="2" style="list-style-type: decimal">
+<li>Summarize the read-alignments corresponding to each gene model into a table structure, that keeps per nucleotide information.</li>
+</ol>
+<p>The two main functions to process <em>genomic alignments</em> data into <strong>transcriptomic</strong> data are <code>tx_reads()</code> and <code>tx_makeDT_*()</code> family functions.</p>
+<p>To fully understand what happens under the hood using txtools to process your data we will use toy examples of <strong>genomic alignments</strong> and <strong>gene annotation</strong>, the main inputs to process the data into transcriptomic data.</p>
+</div>
+</div>
+</div>
+
+
+
+<!-- code folding -->
+
+
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+  (function () {
+    var script = document.createElement("script");
+    script.type = "text/javascript";
+    script.src  = "https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML";
+    document.getElementsByTagName("head")[0].appendChild(script);
+  })();
+</script>
+
+</body>
+</html>
