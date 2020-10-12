@@ -17,7 +17,7 @@ enables a quick and simplified analysis, to closely inspection summary
 metrics per transcript, at nucleotide resolution, i.e. coverage,
 read-starts, read-ends, deletions, and nucleotide frequency.
 
-![mainFunctions](https://github.com/AngelCampos/txtools/blob/dev_plots/man/figures/readme_1.png)
+![mainFunctions](https://raw.githubusercontent.com/AngelCampos/txtools/dev_plots/man/figures/readme_1.png)
 
 ## Quick example
 
