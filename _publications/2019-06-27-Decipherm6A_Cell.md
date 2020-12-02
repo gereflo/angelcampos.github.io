@@ -23,3 +23,6 @@ N6-methyladenosine (m 6A) is the most abundant modification on mRNA and is impli
 	<script type='text/javascript' src='https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js'></script>
 	<div data-badge-details="right" data-badge-type="medium-donut" data-doi="https://doi.org/10.1016/j.cell.2019.06.013" class="altmetric-embed"></div>
 </dl>
+
+<span class="__dimensions_badge_embed__" data-id="pub.1117496457"></span><script async src="https://badge.dimensions.ai/badge.js" charset="utf-8"></script>
+
