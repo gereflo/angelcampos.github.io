@@ -23,3 +23,4 @@ Pathway analysis is a set of widely used tools for research in life sciences int
 	<div data-badge-details="right" data-badge-type="medium-donut" data-doi="https://doi.org/10.3389/fphys.2015.00383" class="altmetric-embed"></div>
 </dl>
 
+<span class="__dimensions_badge_embed__" data-id="pub.1046461227"></span><script async src="https://badge.dimensions.ai/badge.js" charset="utf-8"></script>
