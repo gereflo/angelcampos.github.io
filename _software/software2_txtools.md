@@ -106,7 +106,7 @@ location.
 tx_plot_nucFreq(DT, gene = "NM_079901", txRange = window_around(3803, 15))
 ```
 
-![](https://raw.githubusercontent.com/AngelCampos/txtools/dev_plots/man/figures/README-plotNucFreq-1.png)<!-- -->
+![](https://raw.githubusercontent.com/AngelCampos/txtools/master/man/figures/README-plotNucFreq-1.png)<!-- -->
 
 ## Installation
 
