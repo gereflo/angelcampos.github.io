@@ -20,5 +20,6 @@ In the Schwartz lab, we work in the field of Epitranscriptomics, a relatively ne
 * **16-Oct-2020 - Published work:** González et al., ["Tolerance to Oxidative Stress in Budding Yeast by Heterologous Expression of Catalases A and T from Debaryomyces hansenii"](https://link.springer.com/article/10.1007/s00284-020-02237-3)
 * **17-February-2020 - Poster:** [ILANIT-2020:](https://bit.ly/ilanitPoster); BioTrivia 1st place Winner! :) [Video](https://youtu.be/iZH_RLJXDh0).
 * **24-October-2019 - Short talk:** "MAZTER-seq and the m6A code" [Slides](http://bit.ly/IsraelRNA_2019_shortTalk), 2019 RNA Biology and Processing meeting in memory of Prof. Yossi Sperling, Tel Aviv, Israel.
+* **05-August-2019 - Media coverage:** Sneaky RNA Tag Rendered Visible, [article](https://wis-wander.weizmann.ac.il/life-sciences/sneaky-rna-tag-rendered-visible) covering the publication of our work developing MAZTER-seq
 * **27-June-2019 - Published work:** Garcia-Campos, et al. ["Deciphering the “m6A Code” via Antibody-Independent Quantitative Profiling."](https://www.cell.com/cell/fulltext/S0092-8674(19)30676-2) *Cell* (2019).
 * **4-March-2019 - Published preprint:** Garcia-Campos, Miguel Angel, et al. ["Deciphering the'm6A code'via quantitative profiling of m6A at single-nucleotide resolution."](https://www.biorxiv.org/content/10.1101/571679v1) *BioRxiv* (2019): 571679.
