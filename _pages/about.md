@@ -14,6 +14,9 @@ Hello, my name is Miguel. I'm a PhD student at the [Schwartz Lab](http://www.wei
 
 In the Schwartz lab, we work in the field of Epitranscriptomics, a relatively new and booming research field that deals with the biochemical modifications of RNA molecules of all living organisms and even viruses. My current work revolves around the RNA modification [m6A](https://en.wikipedia.org/wiki/N6-Methyladenosine). m6A is a highly abundant RNA modification present in all eukaryotes, and it has recently received attention as a potential therapeutic target for treating diseases such as Cancer, Osteoporosis, Obesity, and Diabetes. In my latest [published work](https://www.cell.com/cell/fulltext/S0092-8674(19)30676-2), we developed a methodology that is able to detect and quantify m6A in a high-throughput, single-nucleotide, and antibody-independent manner. We also uncovered a code that dictates m6A deposition across the transcriptomes of mouse and yeast, making m6A deposition predictable.
 
+<div class="github-widget" data-username="AngelCampos"></div>
+<script src="https://unpkg.com/github-card@1.2.1/dist/widget.js"></script>
+
 ## Status Updates
 
 * **25-Oct-2020 - Rcourse:** Semester starts. [Recordings available for WIS students and auditors](https://weizmann.cloud.panopto.eu/Panopto/Pages/Sessions/List.aspx#folderID=%225b1109c5-94da-4bfe-8b62-ac5e005fd3d9%22)
