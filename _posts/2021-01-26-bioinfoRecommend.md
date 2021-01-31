@@ -9,7 +9,7 @@ tags:
   - Computational Biology
 ---
 
-**ENTRY IN PROGRES**
+**--ENTRY IN PROGRESS--**
 
 This is a list of some resources I find useful to 
 conduct data analysis in Life Sciences Research,
