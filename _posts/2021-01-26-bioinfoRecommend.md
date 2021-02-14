@@ -24,17 +24,23 @@ Transcriptomics, and RNA-seq derived methods.
 - [Algorithms for DNA Sequencing](https://www.coursera.org/learn/dna-sequencing)
 - [The Data Scientist’s Toolbox](https://www.coursera.org/learn/data-scientists-tools#syllabus)
 
-
 ## R packages
 
 - Rsamtools
 - GenomicAlignments
-- txtools
-
+- [txtools](https://github.com/AngelCampos/txtools/). This is a package I 
+developed to retrieve count data from alignment files (BAM) to perform
+analysis that requires single-nucleotide resolution.
 
 ## Other tools I use a lot
 
+### Bioinformatics
+
 - STAR: RNA-seq reads aligner
+
+### Unix
+
+- Make: a minimal [tutorial](https://kbroman.org/minimal_make/) on make
 
 ## Ebooks
 
