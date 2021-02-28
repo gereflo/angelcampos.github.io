@@ -44,8 +44,9 @@ analysis that requires single-nucleotide resolution.
 
 ## Ebooks
 
-- [R packages by Hadley Wickham](https://r-pkgs.org/index.html)
-
+- [R packages by Hadley Wickham](https://r-pkgs.org/index.html) A great practical reference 
+to creating R packages using devtools. It has been may main resource of help to develop 
+my R packages.
 
 ## Coursera guided projects?
 
