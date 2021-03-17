@@ -11,8 +11,8 @@ away from the Weizmann Institute. The room is available from June 1st onwards.
 
 - Our adress is: [HaRa'az Street 13, apartment 1](https://goo.gl/maps/MSEeAwBXmPQcwVJu5)
 
-The room has a window and is big enough to fit confortably a double-size bed, a closet and more
-as you can see in the pictures. 
+The room is fully furnished with double-sized bed, desk, closet, and more, as seen in the pictures.
+The furniture is up for sell to a very good price from the previous owner.
 
 The house has:
 
