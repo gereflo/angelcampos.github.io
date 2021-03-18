@@ -42,8 +42,7 @@ If you are interested please send me a message through WhatsApp (+972 0587817336
 
 ![kitchen1](https://user-images.githubusercontent.com/9357097/81887404-a4a89000-9564-11ea-92ad-1a735788d3c5.jpg){:height="45%" width="45%"} ![Room1](https://user-images.githubusercontent.com/9357097/111628289-bc8e1780-87f8-11eb-82ce-cd607eaa6e9c.jpeg){:height="45%" width="45%"}
 
-![kitchen2](https://user-images.githubusercontent.com/9357097/81887637-34e6d500-9565-11ea-8324-fa11cccece7c.jpg){:height="30%" width="30%"}  ![toilet1](https://user-images.githubusercontent.com/9357097/81887615-27c9e600-9565-11ea-981a-76b4041dfb91.jpg){:height="30%" width="30%"} ![washroom](https://user-images.githubusercontent
-.com/9357097/81887626-2dbfc700-9565-11ea-9e32-7254d9eac184.jpg){:height="30%" width="30%"}
+![kitchen2](https://user-images.githubusercontent.com/9357097/81887637-34e6d500-9565-11ea-8324-fa11cccece7c.jpg){:height="30%" width="30%"}  ![toilet1](https://user-images.githubusercontent.com/9357097/81887615-27c9e600-9565-11ea-981a-76b4041dfb91.jpg){:height="30%" width="30%"} ![washroom](https://user-images.githubusercontent.com/9357097/81887626-2dbfc700-9565-11ea-9e32-7254d9eac184.jpg){:height="30%" width="30%"}
 
 <!---
 <img src="https://xxx.jpg" alt="xxx" style="height:350px;"/>
