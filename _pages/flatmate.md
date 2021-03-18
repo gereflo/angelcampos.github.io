@@ -1,7 +1,7 @@
 ---
-title: 'Looking for flatmate!'
-date: 2021-03-17
 permalink: /flatmate/
+title: "Looking for flatmate!"
+author_profile: true
 ---
 
 ## Hello we are looking for a flatmate!
