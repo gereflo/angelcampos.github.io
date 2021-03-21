@@ -4,25 +4,25 @@ title: "Looking for flatmate!"
 author_profile: true
 ---
 
-## Hello we are looking for a flatmate!
+## Hello! We are two guys looking for a flatmate!
 
-We will have a room available in our big and cozy apartment located 5 minutes
+We will have a room available in our cozy apartment located 5 minutes
 away from the Weizmann Institute. **The room will be available on May 1st.**
 
-- Our adress is: [HaRa'az Street 13, apartment 1](https://goo.gl/maps/MSEeAwBXmPQcwVJu5)
+- Our address is: [HaRa'az Street 13, apartment 1](https://goo.gl/maps/MSEeAwBXmPQcwVJu5)
 
 The room is fully furnished with double-sized bed, desk, closet, and more, as seen in the pictures.
-The furniture is up for sell to a very good price from the previous owner.
+The furniture is up for sale at a very good price from the previous owner.
 
-The house has:
+The apartment has:
 
 - Three bedrooms, one for each of us.
 - Fully equipped kitchen, with microwave, oven, gas stove, fridge and more.
 - Two and a half bathrooms (one with bathtub, next to the room in rent).
 - Washing room, with automatic washing mashine and dryer.
-- Dining room/living room, with a big cozy sofa, dining table, and big window that looks on the street.
+- Dining room/living room, with a big cozy sofa, dining table, T.V., and big window that looks on the street.
 
-It is also comfortably located in the first floor, so not many stairs to climb up every night ;)
+It is also comfortably located on the first floor, so not many stairs to climb up every day ;)
 
 ## How much?:
 
