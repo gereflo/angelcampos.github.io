@@ -2,7 +2,7 @@
 title: "Pathway Analysis: State of the Art"
 collection: articles
 permalink: /publication/2015-12-17_PathwayAnalysis
-excerpt: 'This review's aim is to give an overview of what pathway analysis is and how different methods have developed encompassing the same idea of trying to identify biologically meaningful categories that are relevant for the results obtained from Omics experimental data.'
+excerpt: "This review's aim is to give an overview of what pathway analysis is and how different methods have developed encompassing the same idea of trying to identify biologically meaningful categories that are relevant for the results obtained from Omics experimental data."
 date: 2015-12-17
 venue: 'Frontiers in Physiology'
 paperurl: 'https://www.frontiersin.org/articles/10.3389/fphys.2015.00383' 
