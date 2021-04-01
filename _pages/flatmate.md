@@ -1,5 +1,5 @@
 ---
-permalink: /flatmate/
+permalink: /hidden_flatmate/
 title: "Looking for flatmate!"
 author_profile: true
 ---
