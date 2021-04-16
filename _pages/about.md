@@ -8,7 +8,6 @@ redirect_from:
   - /about.html
 ---
 
-![alt text](images/topCover.jpg "Makhtesh Ramon Crater")
 
 Hello, my name is Miguel. I'm a PhD student at the [Schwartz Lab](http://www.weizmann.ac.il/molgen/Schwartz/) of the Weizmann Institute of Science. I am a biologist with great interest in understanding life from a quantitative, mechanistic and systematic perspective. My current efforts are focused on advancing the understanding of RNA modifications. And, I am from Mexico!
 
