@@ -8,6 +8,7 @@ redirect_from:
   - /about.html
 ---
 
+![alt text](images/topCover.jpg "Makhtesh Ramon Crater")
 
 Hello, my name is Miguel. I'm a PhD student at the [Schwartz Lab](http://www.weizmann.ac.il/molgen/Schwartz/) of the Weizmann Institute of Science. I am a biologist with great interest in understanding life from a quantitative, mechanistic and systematic perspective. My current efforts are focused on advancing the understanding of RNA modifications. And, I am from Mexico!
 
@@ -21,6 +22,10 @@ Nam at lectus urna duis convallis convallis tellus. Mauris nunc congue nisi vita
 
 
 In the Schwartz lab, we work in the field of Epitranscriptomics, a relatively new and booming research field that deals with the biochemical modifications of RNA molecules of all living organisms and even viruses. My current work revolves around the RNA modification [m6A](https://en.wikipedia.org/wiki/N6-Methyladenosine). m6A is a highly abundant RNA modification present in all eukaryotes, and it has recently received attention as a potential therapeutic target for treating diseases such as Cancer, Osteoporosis, Obesity, and Diabetes. In my latest [published work](https://www.cell.com/cell/fulltext/S0092-8674(19)30676-2), we developed a methodology that is able to detect and quantify m6A in a high-throughput, single-nucleotide, and antibody-independent manner. We also uncovered a code that dictates m6A deposition across the transcriptomes of mouse and yeast, making m6A deposition predictable.
+
+<iframe src="https://mdn-samples.mozilla.org/snippets/html/iframe-simple-contents.html" title="iframe Example 1" width="400" height="300">
+  <p>Your browser does not support iframes.</p>
+</iframe>
 
 ## Status Updates
 
