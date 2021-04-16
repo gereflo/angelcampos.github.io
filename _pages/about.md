@@ -23,7 +23,7 @@ Nam at lectus urna duis convallis convallis tellus. Mauris nunc congue nisi vita
 
 In the Schwartz lab, we work in the field of Epitranscriptomics, a relatively new and booming research field that deals with the biochemical modifications of RNA molecules of all living organisms and even viruses. My current work revolves around the RNA modification [m6A](https://en.wikipedia.org/wiki/N6-Methyladenosine). m6A is a highly abundant RNA modification present in all eukaryotes, and it has recently received attention as a potential therapeutic target for treating diseases such as Cancer, Osteoporosis, Obesity, and Diabetes. In my latest [published work](https://www.cell.com/cell/fulltext/S0092-8674(19)30676-2), we developed a methodology that is able to detect and quantify m6A in a high-throughput, single-nucleotide, and antibody-independent manner. We also uncovered a code that dictates m6A deposition across the transcriptomes of mouse and yeast, making m6A deposition predictable.
 
-<iframe src="/Files/map.html" title="MAp" width="800" height="400" style="border:none;">
+<iframe src="https://gereflo.github.io/angelcamposprueba.github.io/Files/map.html" title="MAp" width="800" height="400" style="border:none;">
   <p>Your browser does not support iframes.</p>
 </iframe>
 
